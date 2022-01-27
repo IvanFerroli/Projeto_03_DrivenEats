@@ -1,0 +1,152 @@
+body{
+  width: 100%;
+  background-color: #E5E5E5;
+}
+
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  background-color: #CF2B2B;
+  color: #FFFFFF;
+  top: 0;
+  height: 92px; 
+  width: 100%;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+  }
+.tm {
+  margin-top: 8px;
+  margin-left: 21px;
+  font-family: righteous;
+  font-weight: 400;
+  font-size: 44px;  
+}
+.slogan {
+  margin-left: 21px;
+  font-family: roboto;
+  font-size: 18px;  
+}
+.optionBox{
+  margin-right: 16px;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  height: 216px;
+  width: 172px;  
+}
+.optionBox h3 {
+  margin-top: 8px;
+  margin-left: 12px; 
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 16px; 
+}
+.optionBox img {
+  margin-top: 18px;
+  margin-left: 14px;
+  margin-right: 14px;
+  width:144px;
+  height:87px;
+}
+.optionBox p{
+  margin-top: 4px;
+  margin-left: 12px;
+  color: #A6A6A6;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 15px;
+}
+.optionBox .price{
+  margin-top: 5px;
+  color: #000000;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+}
+.scrolling{
+  overflow-x: scroll;
+  display: flex;
+  margin-top: 17px;
+  background-color: #E5E5E5;
+  height: 216px;
+  width: 100%;
+}
+.optionSelected{
+}
+.mainCourse{
+  margin-left: 19px;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 123px;
+  height: 259px;
+  font-family: righteous;
+  color: #333333;
+  font-size: 26px; 
+  background-color: #E5E5E5;
+}
+.beverage{
+  margin-left: 19px;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 27px;
+  height: 259px;
+  font-family: righteous;
+  color: #333333;
+  font-size: 26px; 
+  background-color: #E5E5E5;
+}
+.dessert{
+  margin-left: 0px;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 27px;
+  height: 259px;
+  font-family: righteous;
+  color: #333333;
+  font-size: 26px; 
+  background-color: #E5E5E5;
+}
+footer{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  width: 414px;
+  background-color: #FFFFFF;
+}
+footer div{   
+  position: fixed;
+  background-color: #cbcbcb;
+  color: #FFFFFF;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 20px;
+  height: 61px;
+  width: 364px;
+  background-color:#FFFFFF;
+}
+.roundDiv {
+  border-radius: 100px 100px;
+  background: #cbcbcb;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  width: 364px;
+  height: 61px;
+}
+/* .optionButton{
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  height: 216px;
+  width: 172px; 
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+} */
