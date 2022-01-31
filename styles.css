@@ -108,13 +108,13 @@ footer{
   width: 100vw;
   background-color: #FFFFFF;
 }
-footer button{ 
-  
-  
-}
-.purchase-button {
+a{
   position: fixed;
   bottom: 16px;
+  text-decoration: none;
+}
+.purchase-button {
+  
   display: flex;
   align-items: center;
   justify-content: center;
