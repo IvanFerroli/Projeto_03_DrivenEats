@@ -22,7 +22,7 @@ function selectMainCourse(element) {
     
     
     validateSelection(); 
-    
+    console.log(itemsSelected)
 }
 
 function selectBeverage(element, selectedBeverage) {
@@ -41,7 +41,7 @@ function selectBeverage(element, selectedBeverage) {
     
     
     validateSelection();
-
+    console.log(itemsSelected)
     
 }
 
@@ -62,19 +62,20 @@ function selectDessert(element, selectedDessert) {
     
     
     validateSelection();
-
+    console.log(itemsSelected)
     
 }
 
 function validateSelection (){
-    const enableDisable = document.querySelector("purchase-button")
+    console.log(itemsSelected)
+    const purchaseButton = document.querySelector(".purchase-button")
     if(itemsSelected === 3){
-        botao.classList.remove("button-disabled")
-        enableDisable.innerHTML = "Fechar pedido"
+        purchaseButton.classList.remove("button-disabled")
+        purchaseButton.innerTEXT = "Fechar pedido"
         
     }else{
-        botao.classList.add("button-disabled")
-        enableDisable.innerHTML = "Selecione 3 itens para fechar o pedido"
+        purchaseButton.classList.add("button-disabled")
+        purchaseButton.innerTEXT = "Selecione 3 itens para fechar o pedido"
     }
 }
 
