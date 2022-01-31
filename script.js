@@ -9,16 +9,16 @@ let dessert;
 
 function selectMainCourse(element) {
 
-    const selected = document.querySelector(".mainCourse .optionBox")
+    const selected = document.querySelector(".main-course .option-selected")
 
     if(selected != null){
-        selected.classList.remove("optionSelected")
+        selected.classList.remove("option-selected")
     }else{
         
         itemsSelected = itemsSelected + 1
     }
     
-    element.classList.add("optionSelected")
+    element.classList.add("option-selected")
     
     
     validateSelection(); 
@@ -27,17 +27,17 @@ function selectMainCourse(element) {
 
 function selectBeverage(element, selectedBeverage) {
 
-    const selected = document.querySelector(".beverage .optionSelected")
+    const selected = document.querySelector(".beverage .option-selected")
 
     if(selected != null){
-        selected.classList.remove("optionSelected")
+        selected.classList.remove("option-selected")
     }else{
         
         itemsSelected = itemsSelected + 1
 
     }
 
-    element.classList.add("optionSelected")
+    element.classList.add("option-selected")
     
     
     validateSelection();
@@ -47,18 +47,18 @@ function selectBeverage(element, selectedBeverage) {
 
 function selectDessert(element, selectedDessert) {
 
-    const selected = document.querySelector(".dessert .optionSelected")
+    const selected = document.querySelector(".dessert .option-selected")
 
 
     if(selected != null){
-        selected.classList.remove("optionSelected")
+        selected.classList.remove("option-selected")
     }else{
         
         itemsSelected = itemsSelected + 1
 
     }
 
-    element.classList.add("optionSelected")
+    element.classList.add("option-selected")
     
     
     validateSelection();
@@ -67,14 +67,13 @@ function selectDessert(element, selectedDessert) {
 }
 
 function validateSelection (){
-    const enableDisable = document.querySelector("button")
-    const botao = document.querySelector(".purchaseButton")
+    const enableDisable = document.querySelector("purchase-button")
     if(itemsSelected === 3){
-        botao.classList.remove("buttonDisabled")
+        botao.classList.remove("button-disabled")
         enableDisable.innerHTML = "Fechar pedido"
         
     }else{
-        botao.classList.add("buttonDisabled")
+        botao.classList.add("button-disabled")
         enableDisable.innerHTML = "Selecione 3 itens para fechar o pedido"
     }
 }
