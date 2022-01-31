@@ -21,212 +21,212 @@
         <h2 class="slogan">Sua comida em 6 minutos</h2>
     </header>
     <div class="container"></div>
-        <div class="meal main-course">
+        <div class="meal main-course" data-identifier="dishes">
             <h2>Primeiro, seu prato</h2>
             <div class="scrolling">
-                <div onclick="selectMainCourse(this, 'parmegiana')" class="option-box option">
+                <div onclick="selectMainCourse(this, 'parmegiana')" class="option-box" data-identifier="food-option">
                     <img src="assets/Parmegiana.png" alt="Parmegiana">
-                    <h3>Filé à parmegiana</h3>
+                    <h3 data-identifier="food-title">Filé à parmegiana</h3>
                     <p>Acompanhamentos mostrados na imagem</p>
-                    <p class="price">R$19,90</p>
+                    <p class="price" data-identifier="food-price">R$ 19,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectMainCourse(this, 'salmao')" class="option-box">
+                <div onclick="selectMainCourse(this, 'salmao')" class="option-box" data-identifier="food-option">
                     <img src="assets/salmão.png" alt="salmão">
-                    <h3>Salmão</h3>
+                    <h data-identifier="food-title"3>Salmão</h3>
                     <p>Acompanhamentos mostrados na imagem</p>
-                    <p class="price">R$39,90</p>
+                    <p class="price" data-identifier="food-price">R$ 39,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectMainCourse(this, 'salgados')" class="option-box">
+                <div onclick="selectMainCourse(this, 'salgados')" class="option-box" data-identifier="food-option">
                     <img src="assets/salgados.png" alt="salgados">
-                    <h3>Salgados diversos</h3>
+                    <h data-identifier="food-title"3>Salgados diversos</h3>
                     <p>Valor referente à unidade</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectMainCourse(this, 'xtudo')" class="option-box">
+                <div onclick="selectMainCourse(this, 'xtudo')" class="option-box" data-identifier="food-option">
                     <img src="assets/xtudo.png" alt="xtudo">
-                    <h3>X-Tudo</h3>
+                    <h3 data-identifier="food-title">X-Tudo</h3>
                     <p>Tudo o que é mostrado na imagem</p>
-                    <p class="price">R$10,90</p>
+                    <p class="price" data-identifier="food-price">R$ 10,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectMainCourse(this, 'parmegiana')" class="option-box">
+                <div onclick="selectMainCourse(this, 'parmegiana')" class="option-box" data-identifier="food-option">
                     <img src="assets/Parmegiana.png" alt="Parmegiana">
-                    <h3>Filé à parmegiana</h3>
+                    <h3 data-identifier="food-title">Filé à parmegiana</h3>
                     <p>Acompanhamentos mostrados na imagem</p>
-                    <p class="price">R$19,90</p>
+                    <p class="price" data-identifier="food-price">R$ 19,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectMainCourse(this, 'salmao')" class="option-box">
+                <div onclick="selectMainCourse(this, 'salmao')" class="option-box" data-identifier="food-option">
                     <img src="assets/salmão.png" alt="salmão">
-                    <h3>Salmão</h3>
+                    <h3 data-identifier="food-title">Salmão</h3>
                     <p>Acompanhamentos mostrados na imagem</p>
-                    <p class="price">R$39,90</p>
+                    <p class="price" data-identifier="food-price">R$ 39,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectMainCourse(this, 'salgados')" class="option-box">
+                <div onclick="selectMainCourse(this, 'salgados')" class="option-box" data-identifier="food-option">
                     <img src="assets/salgados.png" alt="salgados">
-                    <h3>Salgados diversos</h3>
+                    <h3 data-identifier="food-title">Salgados diversos</h3>
                     <p>Valor referente à unidade</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectMainCourse(this, 'xtudo')" class="option-box">
+                <div onclick="selectMainCourse(this, 'xtudo')" class="option-box" data-identifier="food-option">
                     <img src="assets/xtudo.png" alt="xtudo">
-                    <h3>X-Tudo</h3>
+                    <h3 data-identifier="food-title">X-Tudo</h3>
                     <p>Tudo o que é mostrado na imagem</p>
-                    <p class="price">R$10,90</p>
+                    <p class="price" data-identifier="food-price">R$ 10,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
             </div>            
         </div>
-        <div class="meal beverage">
+        <div class="meal beverage" data-identifier="drinks">
             <h2>Agora, sua bebida</h2>
             <div class="scrolling">
-                <div onclick="selectBeverage(this, 'coquinhaGelada')" class="option-box">
+                <div onclick="selectBeverage(this, 'coquinhaGelada')" class="option-box" data-identifier="food-option">
                     <img src="assets/coquinhaGelada.png" alt="coquinhaGelada">
-                    <h3>Coquinha gelada</h3>
+                    <h3 data-identifier="food-title">Coquinha gelada</h3>
                     <p>Lata 350ml</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectBeverage(this, 'mineral')" class="option-box">
+                <div onclick="selectBeverage(this, 'mineral')" class="option-box" data-identifier="food-option">
                     <img src="assets/mineral.png" alt="mineral">
-                    <h3>Água mineral</h3>
+                    <h3 data-identifier="food-title">Água mineral</h3>
                     <p>Garrafa 500ml</p>
-                    <p class="price">R$2,90</p>
+                    <p class="price" data-identifier="food-price">R$ 2,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectBeverage(this, 'h2oh')" class="option-box">
+                <div onclick="selectBeverage(this, 'h2oh')" class="option-box" data-identifier="food-option">
                     <img src="assets/h2oh.png" alt="h2oh">
-                    <h3>Coquinha gelada</h3>
+                    <h3 data-identifier="food-title">Coquinha gelada</h3>
                     <p>Garrafa 500ml</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectBeverage(this, 'energeticos')" class="option-box">
+                <div onclick="selectBeverage(this, 'energeticos')" class="option-box" data-identifier="food-option">
                     <img src="assets/energéticos.png" alt="energéticos">
-                    <h3>Energéticos</h3>
+                    <h3 data-identifier="food-title">Energéticos</h3>
                     <p>Lata 350ml</p>
-                    <p class="price">R$10,90</p>
+                    <p class="price" data-identifier="food-price">R$ 10,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectBeverage(this, 'suco')" class="option-box">
+                <div onclick="selectBeverage(this, 'suco')" class="option-box" data-identifier="food-option">
                     <img src="assets/suco.png" alt="suco">
-                    <h3>Sucos naturais</h3>
+                    <h3 data-identifier="food-title">Sucos naturais</h3>
                     <p>Copo 350ml</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectBeverage(this, 'coquinhaGelada')" class="option-box">
+                <div onclick="selectBeverage(this, 'coquinhaGelada')" class="option-box" data-identifier="food-option">
                     <img src="assets/coquinhaGelada.png" alt="coquinhaGelada">
-                    <h3>Coquinha gelada</h3>
+                    <h3 data-identifier="food-title">Coquinha gelada</h3>
                     <p>Lata 350ml</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectBeverage(this, 'mineral')" class="option-box">
+                <div onclick="selectBeverage(this, 'mineral')" class="option-box" data-identifier="food-option">
                     <img src="assets/mineral.png" alt="mineral">
-                    <h3>Água mineral</h3>
+                    <h3 data-identifier="food-title">Água mineral</h3>
                     <p>Garrafa 500ml</p>
-                    <p class="price">R$2,90</p>
+                    <p class="price" data-identifier="food-price">R$ 2,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectBeverage(this, 'h2oh')" class="option-box">
+                <div onclick="selectBeverage(this, 'h2oh')" class="option-box" data-identifier="food-option">
                     <img src="assets/h2oh.png" alt="h2oh">
-                    <h3>Coquinha gelada</h3>
+                    <h3 data-identifier="food-title">Coquinha gelada</h3>
                     <p>Garrafa 500ml</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectBeverage(this, 'energeticos')" class="option-box">
+                <div onclick="selectBeverage(this, 'energeticos')" class="option-box" data-identifier="food-option">
                     <img src="assets/energéticos.png" alt="energéticos">
-                    <h3>Energéticos</h3>
+                    <h3 data-identifier="food-title">Energéticos</h3>
                     <p>Lata 350ml</p>
-                    <p class="price">R$10,90</p>
+                    <p class="price" data-identifier="food-price">R$ 10,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectBeverage(this, 'suco')" class="option-box">
+                <div onclick="selectBeverage(this, 'suco')" class="option-box" data-identifier="food-option">
                     <img src="assets/suco.png" alt="suco">
-                    <h3>Sucos naturais</h3>
+                    <h3 data-identifier="food-title">Sucos naturais</h3>
                     <p>Copo 350ml</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
             </div>
         </div>
-        <div class="meal dessert">
+        <div class="meal dessert" data-identifier="desserts">
             <h2>Por fim, sua sobremesa</h2>
             <div class="scrolling">
-                <div onclick="selectDessert(this, 'pudim')" class="option-box">
+                <div onclick="selectDessert(this, 'pudim')" class="option-box" data-identifier="food-option">
                     <img src="assets/pudim.png" alt="pudim">
-                    <h3>Pudim</h3>
+                    <h3 data-identifier="food-title">Pudim</h3>
                     <p>Apenas pudim</p>
-                    <p class="price">R$7,90</p>
+                    <p class="price" data-identifier="food-price">R$ 7,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectDessert(this, 'mousse')" class="option-box">
+                <div onclick="selectDessert(this, 'mousse')" class="option-box" data-identifier="food-option">
                     <img src="assets/mousse.png" alt="mousse">
-                    <h3>Mousse</h3>
+                    <h3 data-identifier="food-title">Mousse</h3>
                     <p>Mousse de morango ou maracujá</p>
-                    <p class="price">R$7,90</p>
+                    <p class="price" data-identifier="food-price">R$ 7,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectDessert(this, 'brigadeiro')" class="option-box">
+                <div onclick="selectDessert(this, 'brigadeiro')" class="option-box" data-identifier="food-option">
                     <img src="assets/brigadeiro.png" alt="brigadeiro">
-                    <h3>Brigadeiro</h3>
+                    <h3 data-identifier="food-title">Brigadeiro</h3>
                     <p>Brigadeiro, unidade</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectDessert(this, 'donut')" class="option-box">
+                <div onclick="selectDessert(this, 'donut')" class="option-box" data-identifier="food-option">
                     <img src="assets/donut.png" alt="donut">
-                    <h3>donut</h3>
+                    <h3 data-identifier="food-title">donut</h3>
                     <p>Donut, sabor a escolher</p>
-                    <p class="price">R7,90</p>
+                    <p class="price" data-identifier="food-price">R$ 7,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectDessert(this, 'sorvete')" class="option-box">
+                <div onclick="selectDessert(this, 'sorvete')" class="option-box" data-identifier="food-option">
                     <img src="assets/sorvete.png" alt="sorvete">
-                    <h3>Sorvete de copinho</h3>
+                    <h3 data-identifier="food-title">Sorvete de copinho</h3>
                     <p>Sorvete, sabor a escolher</p>
-                    <p class="price">R$4,90</p>   
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>   
                 </div>
                 <div class="option-box">
                     <img src="assets/pudim.png" alt="pudim">
-                    <h3>Pudim</h3>
+                    <h3 data-identifier="food-title">Pudim</h3>
                     <p>Apenas pudim</p>
-                    <p class="price">R$7,90</p>
+                    <p class="price" data-identifier="food-price">R$ 7,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectDessert(this, 'mousse')" class="option-box">
+                <div onclick="selectDessert(this, 'mousse')" class="option-box" data-identifier="food-option">
                     <img src="assets/mousse.png" alt="mousse">
-                    <h3>Mousse</h3>
+                    <h3 data-identifier="food-title">Mousse</h3>
                     <p>Mousse de morango ou maracujá</p>
-                    <p class="price">R$7,90</p>
+                    <p class="price" data-identifier="food-price">R$ 7,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectDessert(this, 'brigadeiro')" class="option-box">
+                <div onclick="selectDessert(this, 'brigadeiro')" class="option-box" data-identifier="food-option">
                     <img src="assets/brigadeiro.png" alt="brigadeiro">
-                    <h3>Brigadeiro</h3>
+                    <h3 data-identifier="food-title">Brigadeiro</h3>
                     <p>Brigadeiro, unidade</p>
-                    <p class="price">R$4,90</p>
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectDessert(this, 'donut')" class="option-box">
+                <div onclick="selectDessert(this, 'donut')" class="option-box" data-identifier="food-option">
                     <img src="assets/donut.png" alt="donut">
-                    <h3>donut</h3>
+                    <h3 data-identifier="food-title">donut</h3>
                     <p>Donut, sabor a escolher</p>
-                    <p class="price">R7,90</p>
+                    <p class="price" data-identifier="food-price">R$ 7,90</p>
                     <ion-icon name="checkmark-circle" styles="color: #32B72F" class="check-mark hidden"></ion-icon>
                 </div>
-                <div onclick="selectDessert(this, 'sorvete')" class="option-box">
+                <div onclick="selectDessert(this, 'sorvete')" class="option-box" data-identifier="food-option">
                     <img src="assets/sorvete.png" alt="sorvete">
-                    <h3>Sorvete de copinho</h3>
+                    <h3 data-identifier="food-title">Sorvete de copinho</h3>
                     <p>Sorvete, sabor a escolher</p>
-                    <p class="price">R$4,90</p>   
+                    <p class="price" data-identifier="food-price">R$ 4,90</p>   
                 </div>
             </div>
         </div>
